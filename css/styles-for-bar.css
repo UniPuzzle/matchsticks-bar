@@ -67,7 +67,7 @@ img {
   height: 30px;
   top: 15px;
   right: 330px;
-  background-image: url(/images/mtck_desktop_restart_icon.svg);
+  background-image: url('../images/mtck_desktop_restart_icon.svg');
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -80,7 +80,7 @@ img {
   right: 10px;
   width: 30px;
   height: 30px;
-  background-image: url('/images/mtck_desktop_menu_icon.svg');
+  background-image: url('../images/mtck_desktop_menu_icon.svg');
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
