@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'robotothin', sans-serif;
+  src: url('/fonts/roboto-thin-webfont.woff') format('woff'),
+    url('/fonts/roboto-thin-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'arialbold', sans-serif;
+  src: url('/fonts/arial-boldmt-webfont.woff') format('woff'),
+    url('/fonts/arial-boldmt-webfont.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'robotothin', sans-serif;
+  font-size: 16px;
+  line-height: 1.12;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.mtck-bar__wrapp {
+  width: 310px;
+
+  margin-left: auto;
+  background-color: #444545;
+  border-radius: 8px 8px 0 0;
+}
+.mtck-bar__heder {
+  position: fixed;
+  z-index: 9999;
+}
+.mtck-bar__heder::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 15px;
+  right: 330px;
+  background-image: url(/images/mtck_desktop_restart_icon.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.mtck-bar__heder::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-image: url('/images/mtck_desktop_menu_icon.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.mtck-bar__card-wrapp {
+  padding-top: 54px;
+  padding-bottom: 1px;
+}
+.mtck-bar__card {
+  display: flex;
+  background-color: #444545;
+  border-bottom: 2px solid #292f36;
+  align-items: center;
+}
+.mtck-bar__img {
+  width: 35%;
+}
+.mtck-bar__content {
+  color: white;
+  width: 65%;
+  padding: 15px 10px 15px 5px;
+}
+.mtck-bar__content-title {
+  font-family: 'arialbold', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.mtck-bar__content-text {
+  font-family: 'robotothin', sans-serif;
+  font-size: 13px;
+  padding-top: 15px;
+}
+.mtck--bar__btn {
+  position: relative;
+  bottom: 0;
+  display: block;
+  width: 70%;
+  margin: 45px auto;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.mtck--bar__btn-text {
+  position: absolute;
+  font-size: 21px;
+  font-weight: bold;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

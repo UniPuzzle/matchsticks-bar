@@ -1,0 +1,16 @@
+.itr_mtck--width {
+  /* display: flex; */
+  width: 100px;
+  height: 125px;
+  margin: 5px auto;
+  position: relative;
+}
+
+.itr_mtck_elem {
+  position: absolute;
+  display: flex;
+  width: 2.75%;
+  height: 25%;
+  /* outline: 1px solid black;
+  border-radius: 20px; */
+}
