@@ -49,7 +49,7 @@ img {
 }
 
 .mtck-bar__wrapp {
-  width: 310px;
+  width: 350px;
 
   margin-left: auto;
   background-color: #444545;
@@ -59,6 +59,9 @@ img {
   position: fixed;
   z-index: 9999;
 }
+.mtck-bar__heder img {
+  width: 350px;
+}
 .mtck-bar__heder::before {
   content: '';
   display: block;
@@ -66,7 +69,7 @@ img {
   width: 30px;
   height: 30px;
   top: 15px;
-  right: 330px;
+  right: 104%;
   background-image: url('../images/mtck_desktop_restart_icon.svg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,7 +79,7 @@ img {
   content: '';
   display: block;
   position: absolute;
-  top: 7px;
+  top: 10px;
   right: 10px;
   width: 30px;
   height: 30px;
@@ -86,22 +89,25 @@ img {
   cursor: pointer;
 }
 .mtck-bar__card-wrapp {
-  padding-top: 54px;
+  padding-top: 61px;
   padding-bottom: 1px;
 }
 .mtck-bar__card {
   display: flex;
   background-color: #444545;
   border-bottom: 2px solid #292f36;
-  align-items: center;
+  /* align-items: center; */
 }
 .mtck-bar__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35%;
 }
 .mtck-bar__content {
   color: white;
   width: 65%;
-  padding: 15px 10px 15px 5px;
+  padding: 15px 10px 15px 0px;
 }
 .mtck-bar__content-title {
   font-family: 'arialbold', sans-serif;
@@ -115,10 +121,9 @@ img {
 }
 .mtck--bar__btn {
   position: relative;
-  bottom: 0;
   display: block;
-  width: 70%;
-  margin: 45px auto;
+  width: 90%;
+  margin: 16px auto;
   padding: 0;
   background-color: transparent;
   border-radius: 4px;
