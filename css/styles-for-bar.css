@@ -47,7 +47,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.link {
+  text-decoration: none;
+}
+.mtck__for-advertising {
+  position: absolute;
+  width: 12%;
+  height: 100vh;
+  background: #e1d1ff;
+}
 .mtck-bar__wrapp {
   width: 350px;
 
@@ -91,23 +99,42 @@ img {
 .mtck-bar__card-wrapp {
   padding-top: 61px;
   padding-bottom: 1px;
+  height: 100vh;
+  overflow: scroll;
 }
+
+.mtck-bar__card-wrapp {
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.mtck-bar__card-wrapp::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .mtck-bar__card {
   display: flex;
   background-color: #444545;
   border-bottom: 2px solid #292f36;
   /* align-items: center; */
 }
+
+.mtck-bar__card:hover {
+  background-color: #585959;
+}
 .mtck-bar__img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 35%;
+  width: 30%;
+  margin: 0 10px;
 }
 .mtck-bar__content {
   color: white;
   width: 65%;
-  padding: 15px 10px 15px 0px;
+  padding: 20px 10px 15px 0px;
 }
 .mtck-bar__content-title {
   font-family: 'arialbold', sans-serif;
@@ -135,6 +162,7 @@ img {
   position: absolute;
   font-size: 21px;
   font-weight: bold;
+  color: #9c4803;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
