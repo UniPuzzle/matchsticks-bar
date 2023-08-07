@@ -29,6 +29,7 @@ body {
   font-family: 'robotothin', sans-serif;
   font-size: 16px;
   line-height: 1.12;
+  background-color: #f4efef;
 }
 
 h1,
@@ -50,14 +51,64 @@ img {
 .link {
   text-decoration: none;
 }
+.mtck__container {
+  display: flex;
+}
 .mtck__for-advertising {
   position: absolute;
   width: 12%;
   height: 100vh;
   background: #e1d1ff;
 }
+.mtck__center-box {
+  width: 100%;
+  position: relative;
+}
+.mtck__center-box--text {
+  font-family: 'robotothin', sans-serif;
+  color: #a2a3a4;
+  padding: 0rem 5rem;
+  position: absolute;
+  left: 11%;
+  top: 0;
+}
+.mtck_title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  top: 17px;
+}
+.mtck_author {
+  font-size: 1.3rem;
+  top: 66px;
+}
+.mtck_rules {
+  font-size: 0.9rem;
+  max-width: 490px;
+  top: 90px;
+}
+.mtck_playfield .itr_mtck_elem {
+  cursor: pointer;
+}
+.mtck_you_win_blk_dt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  font-size: 35.75px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+
+  padding: 0.3rem 2rem;
+
+  border: 3.575px solid black;
+  border-radius: 7.15px;
+  background-color: red;
+  display: none;
+  z-index: 100;
+}
 .mtck-bar__wrapp {
-  width: 350px;
+  width: 450px;
 
   margin-left: auto;
   background-color: #444545;

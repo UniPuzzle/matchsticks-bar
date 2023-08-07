@@ -14,3 +14,16 @@
   /* outline: 1px solid black;
   border-radius: 20px; */
 }
+
+.mtck_playfield--width {
+  width: 400px;
+  height: 500px;
+  margin: 7px auto;
+  position: relative;
+}
+.mtck__playfield--img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
