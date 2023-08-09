@@ -118,10 +118,23 @@ img {
   position: fixed;
   z-index: 9999;
 }
-.mtck-bar__heder img {
+.mtck-bar__heder-img {
   width: 350px;
 }
-.mtck-bar__heder::before {
+
+.mtck__restart-img {
+  width: 40px;
+  position: absolute;
+  top: 20px;
+  left: -61px;
+}
+.mtck__menubar-icon {
+  max-width: 40px;
+  position: absolute;
+  top: 11px;
+  right: 18px;
+}
+/* .mtck-bar__heder::before {
   content: '';
   display: block;
   position: absolute;
@@ -146,7 +159,7 @@ img {
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
-}
+} */
 .mtck-bar__card-wrapp {
   padding-top: 61px;
   padding-bottom: 1px;
